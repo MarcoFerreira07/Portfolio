@@ -32,7 +32,8 @@ header{
   background-color: var(--tertiary);
 }
 header h1{
-  color: var(--light);
+  color: white;
+  font-weight: bold;
   background-color: var(--secondary);
   padding: 5px 1% 5px 5%;
   margin: 0;
@@ -115,7 +116,18 @@ main {
   flex-wrap: wrap;
   justify-content: center;
 }
+.work1 {
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  overflow:visible;
+  background-size: cover;
+  background-position: top;
+  background-image:url("./images/stock.jpg");
+  width: 50%;
+  height: 50vh;
+  border: 5px solid var(--secondary);
 
+}
 .flex-item {
   border: 5px solid var(--secondary);
 background-color: var(--primary);
@@ -148,8 +160,14 @@ font-size: 0.9rem;
   padding:8px 10px;
 }
 
+h3{
+  color: white;
+  font-weight: bold;
+}
 .flex-item h3{
   font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
 }
 /* styling for . contacts address --- .contacts a{ to style links} --- .contact address a:hover color */
 address a {
