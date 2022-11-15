@@ -120,11 +120,23 @@ main {
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   overflow:visible;
-  background-size: cover;
+  background-size: 100%;
   background-position: top;
   background-image:url("./images/stock.jpg");
-  width: 50%;
-  height: 50vh;
+  width: 600px;
+  height: 290px;
+  border: 5px solid var(--secondary);
+
+}
+.work2 {
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  overflow:visible;
+  background-size: 100%;
+  background-position: top;
+  background-image:url("./images/dietlyUsage.jpg");
+  width: 600px;
+  height: 290px;
   border: 5px solid var(--secondary);
 
 }
